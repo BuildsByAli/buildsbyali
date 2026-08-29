@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contact | Builds by Ali</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html"><span class="brand-mark">A</span><span>BUILDS BY ALI</span></a>
+    <button class="menu-btn" aria-label="Open menu">☰</button>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="resume.html">Resume</a>
+      <a href="contact.html">Contact</a>
+      <a class="nav-cta" href="projects.html">View My Work</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="page-hero container"><div class="eyebrow">Contact</div><h1>Let’s connect.</h1><p>Use this page for project conversations, collaboration, technical opportunities and general inquiries.</p></section>
+<section class="section"><div class="container">
+<form class="form contact-form">
+  <input name="name" placeholder="Your name" required>
+  <input name="email" type="email" placeholder="Your email" required>
+  <input name="subject" placeholder="Subject">
+  <textarea name="message" placeholder="Tell me a little about what you’re reaching out about…" required></textarea>
+  <button class="btn primary" type="submit">Send Message</button>
+  <div class="form-status" style="color:var(--muted);text-align:center"></div>
+</form>
+</div></section>
+</main>
+<footer>
+  <div class="container footer-inner">
+    <div>© <span data-year></span> Builds by Ali</div>
+    <div>Building Smarter Solutions</div>
+  </div>
+</footer>
+<button class="chat-launcher" aria-label="Open Builds by Ali assistant">✦</button>
+<div class="chat" aria-live="polite">
+  <div class="chat-head"><strong>Builds by Ali Assistant</strong><button class="chat-close" aria-label="Close chat" style="background:none;border:0;color:white;cursor:pointer">✕</button></div>
+  <div class="chat-body">
+    <div class="msg bot">Hi — I’m the Builds by Ali site assistant. Ask me about projects, Ali, the resume, or how to get in touch.</div>
+  </div>
+  <form class="chat-form">
+    <input class="chat-input" placeholder="Ask a question…" autocomplete="off">
+    <button type="submit">Send</button>
+  </form>
+  <div class="small-note">Demo assistant — no data leaves your browser.</div>
+</div>
+<script src="script.js"></script>
+</body></html>

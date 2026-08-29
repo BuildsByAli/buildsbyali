@@ -1,16 +1,25 @@
-## Hi there 👋
+# Builds by Ali Website
 
-<!--
-**BuildsByAli/buildsbyali** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+A custom static portfolio site for Builds by Ali.
 
-Here are some ideas to get you started:
+## Files
+- `index.html` — homepage
+- `about.html` — About Ali page
+- `projects.html` — projects portfolio
+- `resume.html` — web resume
+- `contact.html` — contact page
+- `styles.css` — site design
+- `script.js` — navigation + demo chatbot
+- `assets/builds-by-ali-logo.png` — logo
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Run locally
+Double-click `index.html` or open it in a browser.
+
+## Publish with GitHub Pages
+Upload these files to your GitHub repository, then enable GitHub Pages from the repository Settings → Pages.
+
+## Important
+The chat assistant is a safe browser-only demo. Do not put an OpenAI API key directly in `script.js`.
+A real AI assistant should be connected through a secure backend or serverless function.
+
+The contact form is currently a visual demo. Connect it to Formspree, Netlify Forms, or your own backend to receive messages.
